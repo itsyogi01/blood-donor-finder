@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #d63031;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+section {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 700px;
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+button {
+  background: #d63031;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e84342;
+}
+
+.donor-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background: #fefefe;
+  box-shadow: 2px 2px 8px #ccc;
+}
+
+.donor-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #d63031;
+}
